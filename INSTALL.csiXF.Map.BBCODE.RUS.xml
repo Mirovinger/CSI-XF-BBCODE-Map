@@ -4,7 +4,7 @@
   Contacts: http://cyberspace.industries/
   License: LICENSE.ENG.txt / LICENSE.RUS.txt
 -->
-<addon addon_id="csiXF_bbCodeMap" title="(CSI/XF/BBCODE) Карта" version_string="1.0.1" version_id="2" url="http://cyberspace.industries/" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+<addon addon_id="csiXF_bbCodeMap" title="(CSI/XF/BBCODE) Карта" version_string="1.0.2" version_id="3" url="http://cyberspace.industries/" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
   <admin_navigation/>
   <admin_permissions/>
   <admin_style_properties/>
@@ -204,7 +204,7 @@ var mapBBcode = new MapBBCode({
     </div>
   </div>
 </div>]]></template>
-    <template title="csiXF_bbCodeMap_leaflet.css" version_id="1" version_string="1.0.0"><![CDATA[/* required styles */
+    <template title="csiXF_bbCodeMap_leaflet.css" version_id="3" version_string="1.0.2"><![CDATA[/* required styles */
 
 .leaflet-map-pane,
 .leaflet-tile,
@@ -485,12 +485,12 @@ var mapBBcode = new MapBBCode({
   border-radius: 5px;
   }
 .leaflet-control-layers-toggle {
-  background-image: url(images/layers.png);
+  background-image: url({xen:property imagePath}/csi/bbcode_map/layers.png);
   width: 36px;
   height: 36px;
   }
 .leaflet-retina .leaflet-control-layers-toggle {
-  background-image: url(images/layers-2x.png);
+  background-image: url({xen:property imagePath}/csi/bbcode_map/layers-2x.png);
   background-size: 26px 26px;
   }
 .leaflet-touch .leaflet-control-layers-toggle {
@@ -683,7 +683,7 @@ var mapBBcode = new MapBBCode({
   background: #fff;
   border: 1px solid #666;
   }]]></template>
-    <template title="csiXF_bbCodeMap_leafletDraw.css" version_id="1" version_string="1.0.0"><![CDATA[/* ================================================================== */
+    <template title="csiXF_bbCodeMap_leafletDraw.css" version_id="3" version_string="1.0.2"><![CDATA[/* ================================================================== */
 /* Toolbars
 /* ================================================================== */
 
@@ -708,12 +708,12 @@ var mapBBcode = new MapBBCode({
 }
 
 .leaflet-draw-toolbar a {
-  background-image: url('images/spritesheet.png');
+  background-image: url('{xen:property imagePath}/csi/bbcode_map/spritesheet.png');
   background-repeat: no-repeat;
 }
 
 .leaflet-retina .leaflet-draw-toolbar a {
-  background-image: url('images/spritesheet-2x.png');
+  background-image: url('{xen:property imagePath}/csi/bbcode_map/spritesheet-2x.png');
   background-size: 270px 30px;
 }
 
