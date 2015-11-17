@@ -114,9 +114,9 @@ ru={xen:phrase csiXF_bbCodeMap_langRus}</edit_format_params>
     <phrase title="csiXF_bbCodeMap_langRus" version_id="2" version_string="1.0.1"><![CDATA[Русский]]></phrase>
     <phrase title="option_csiXF_bbCodeMap_layers" version_id="2" version_string="1.0.1"><![CDATA[Слои]]></phrase>
     <phrase title="option_csiXF_bbCodeMap_layers_explain" version_id="1" version_string="1.0.0"><![CDATA[Слои, накладываемые на карту для отображения местности.
-Название каждого слоя обрамляется одинарными кавычками, слои перечисляются через запятую. Для удобства каждый слой можно располагать на отдельной строке.
-<br/><strong>Открытые системы:</strong> 'Cloudmade', 'CycleMap', 'Hike & Bike', 'Humanitarian', 'Landscape', 'MapBox', 'MapQuest Open', 'OpenMapSurfer Contour', 'OpenMapSurfer Grayscale', 'OpenMapSurfer', 'OpenStreetMap DE', 'OpenStreetMap FR', 'OpenStreetMap', 'Outdoors', 'Stamen Toner Lite', 'Stamen Toner', 'Stamen Watercolor', 'Transport'.
-<br/><strong>Проприетарные системы:</strong> '2GIS', 'Esri Imagery', 'Esri Light Gray', 'Esri Street Map', 'Esri Topographic', 'Google Hybrid', 'Google Roads', 'Google Satellite', 'Google Terrain', 'National Geographic', 'Nokia Grey', 'Nokia Hybrid', 'Nokia Map', 'Nokia Satellite', 'Nokia Terrain', 'Yandex Hybrid', 'Yandex Map', 'Yandex People\'s Hybrid', 'Yandex People\'s Map', 'Yandex Satellite', 'Yandex Traffic Map'.]]></phrase>
+Название каждого слоя обрамляется одинарными кавычками, слои перечисляются через запятую. Для удобства каждый слой можно располагать на отдельной строке.<br />
+<strong>Открытые системы:</strong> 'Cloudmade', 'CycleMap', 'Hike & Bike', 'Humanitarian', 'Landscape', 'MapBox', 'MapQuest Open', 'OpenMapSurfer Contour', 'OpenMapSurfer Grayscale', 'OpenMapSurfer', 'OpenStreetMap DE', 'OpenStreetMap FR', 'OpenStreetMap', 'Outdoors', 'Stamen Toner Lite', 'Stamen Toner', 'Stamen Watercolor', 'Transport'.<br />
+<strong>Проприетарные системы:</strong> '2GIS', 'Esri Imagery', 'Esri Light Gray', 'Esri Street Map', 'Esri Topographic', 'Google Hybrid', 'Google Roads', 'Google Satellite', 'Google Terrain', 'National Geographic', 'Nokia Grey', 'Nokia Hybrid', 'Nokia Map', 'Nokia Satellite', 'Nokia Terrain', 'Yandex Hybrid', 'Yandex Map', 'Yandex People\'s Hybrid', 'Yandex People\'s Map', 'Yandex Satellite', 'Yandex Traffic Map'.]]></phrase>
     <phrase title="option_csiXF_bbCodeMap_layer2GIS" version_id="2" version_string="1.0.1"><![CDATA[Слой: 2GIS]]></phrase>
     <phrase title="option_csiXF_bbCodeMap_layer2GIS_explain" version_id="2" version_string="1.0.1"><![CDATA[Подключение карты 2GIS.]]></phrase>
     <phrase title="option_csiXF_bbCodeMap_layerBing" version_id="2" version_string="1.0.1"><![CDATA[Слой: Bing]]></phrase>
@@ -144,7 +144,8 @@ ru={xen:phrase csiXF_bbCodeMap_langRus}</edit_format_params>
     <phrase title="option_csiXF_bbCodeMap_lang" version_id="1" version_string="1.0.0"><![CDATA[Локализация]]></phrase>
     <phrase title="option_csiXF_bbCodeMap_lang_explain" version_id="1" version_string="1.0.0"><![CDATA[Локализация интерфейса управления картой.]]></phrase>
     <phrase title="option_group_csiXF_bbCodeMap" version_id="1" version_string="1.0.0"><![CDATA[(CSI/XF/BBCODE) Карта]]></phrase>
-    <phrase title="option_group_csiXF_bbCodeMap_description" version_id="1" version_string="1.0.0"><![CDATA[Отображение интерактивной карты в сообщениях.]]></phrase>
+    <phrase title="option_group_csiXF_bbCodeMap_description" version_id="1" version_string="1.0.0"><![CDATA[Отображение интерактивной карты в сообщениях.<br />
+Developed by <a href="//cyberspace.industries/">CYBERSPACE.Industries</a>]]></phrase>
     <phrase title="custom_bb_code_map_title" version_id="1" version_string="1.0.0"><![CDATA[Карта]]></phrase>
     <phrase title="custom_bb_code_map_desc" version_id="1" version_string="1.0.0"><![CDATA[Отображение интерактивной карты в сообщениях.]]></phrase>
   </phrases>
